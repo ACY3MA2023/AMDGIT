@@ -1,0 +1,11 @@
+p {
+    font-weight: bolder;
+    font-size: larger;
+    color:darkcyan;
+}
+
+span {
+    font-weight: bolder;
+    font-size: larger;
+    color:orange;
+}
