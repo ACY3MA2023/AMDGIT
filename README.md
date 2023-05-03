@@ -1,1 +1,1 @@
-# AMDGIT
+# Welcome.
