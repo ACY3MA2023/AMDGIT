@@ -33,7 +33,8 @@ As a user, I need to store books in my cart as below.
   - Have a button Load Cart to perform the functionality.
 
 
-
+==========================================
+:book: **EXPLORATORY LABS**  
 
 :beginner: _**US05**_  
 As a user, I need to access and manipulate a set. 
@@ -58,9 +59,6 @@ services.add( {
 });
 ```
 
-
-==========================================
-:book: **EXPLORATORY LABS**  
 
 :beginner: _**US06**_  
 As a developer, I need to understand the challenges with variables in javascript by implementing a calculator program.
