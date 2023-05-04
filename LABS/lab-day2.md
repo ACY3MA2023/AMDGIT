@@ -33,6 +33,8 @@ As a user, I need to store books in my cart as below.
   - Have a button Load Cart to perform the functionality.
 
 
+:bulb: You can choose to implement with Typescript as well.
+
 ==========================================  
 :book: **EXPLORATORY LABS**  
 
