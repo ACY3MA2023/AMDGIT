@@ -1,0 +1,11 @@
+{
+  "name": "newtypescriptdemo",
+  "version": "1.0.0",
+  "description": "Typescript playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Developer\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DAmazing_Developer",
+  "license": "ISC"
+}

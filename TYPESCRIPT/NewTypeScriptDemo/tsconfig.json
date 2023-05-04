@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+// ecma script version
+    "target": "es2018",
+//    the location for javascript files
+    "outDir": "./dist",
+//    the source files
+    "rootDir" : "./src",
+    "module" : "commonjs"
+  }
+}
+
+//https://en.wikipedia.org/wiki/ECMAScript_version_history#ES2015
