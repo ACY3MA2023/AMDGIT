@@ -1,4 +1,4 @@
-let testVar = 'change me let';
+let testVar = 'change me let ... recompile';
 console.log(testVar);
 testVar = "change let";
 console.log(testVar);
