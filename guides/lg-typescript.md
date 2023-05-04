@@ -1,4 +1,4 @@
-:books: **Product Catalog Management System**
+:books: **Project Setup for Typescript**
 
 :beginner: _**setup**_
 
@@ -14,7 +14,7 @@ git --version
 npm install --global typescript@4.2.2
 tsc --version
 ```
-:beginner: _**Initializing the Project**_
+:beginner: _**Typescript **_
 - folder : PCMSysv1
 ```js
 git init
