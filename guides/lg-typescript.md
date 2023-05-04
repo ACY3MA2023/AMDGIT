@@ -2,9 +2,9 @@
 
 :beginner: _**setup**_
 
-https://nodejs.org/dist/v14.15.4/node-v14.15.4-x64.msi
-https://git-scm.com/downloads
-https://code.visualstudio.com/download
+https://nodejs.org/dist/v14.15.4/node-v14.15.4-x64.msi  
+https://git-scm.com/downloads  
+https://code.visualstudio.com/download  
 
 ```js
 node --version
