@@ -1,27 +1,8 @@
-:beginner: _**USER STORY 1**_  :hourglass: 30 mins
-
-- As a user, I need a contact form for capturing the details of the interested professional.
-
-:writing_hand: **_Requirements_**  
-1. Apply different html elements
-2. Use sematic tags
-3. Use different types of css selectors
-4. Use inline/internal/external styles.
-5. [Future] Javascript for validation 
+:books: **DAY2**  
 
 
-:beginner: _**USER STORY 2**_  :hourglass: 30 mins
-- As a user, I need a theme changer with lights on and lights off.
 
-
-:writing_hand: **_Requirements_**
-  
-  - The bulb is on with a dark background
-  - The bulb is off with a light background
-  - Clicking the bulb when is it on should make the bulb disapper.
-  - Clicking the bulb when is it off should add another bulb.
-
-:beginner: _**USER STORY 3**_  :hourglass: 30 mins
+:beginner: _**USER STORY 3**_
 - As a user, I need data transfer functionality for the form below.
 ![](img/Contacts%20Form.png)  
 
@@ -51,6 +32,9 @@ As a user, I need to store books in my cart as below.
   - Render the cart dynamically on the page in a table of 2*2
   - Have a button Load Cart to perform the functionality.
 
+
+
+
 :beginner: _**US05**_  
 As a user, I need to access and manipulate a set. 
 
@@ -73,6 +57,10 @@ services.add( {
     description : 'IT consulting services'
 });
 ```
+
+
+==========================================
+:book: **EXPLORATORY LABS**  
 
 :beginner: _**US06**_  
 As a developer, I need to understand the challenges with variables in javascript by implementing a calculator program.
