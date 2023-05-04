@@ -33,7 +33,7 @@ As a user, I need to store books in my cart as below.
   - Have a button Load Cart to perform the functionality.
 
 
-==========================================
+==========================================  
 :book: **EXPLORATORY LABS**  
 
 :beginner: _**US05**_  
