@@ -23,6 +23,9 @@
 :bulb: transfer as it is typed, or when field loses focus or on submit.
 
 
+==========================================  
+:book: **EXPLORATORY LABS** 
+
 :beginner: _**US04**_  
 As a user, I need to store books in my cart as below.
 ![](img/bookcart.png)  
