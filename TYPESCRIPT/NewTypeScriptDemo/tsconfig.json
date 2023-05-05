@@ -2,6 +2,7 @@
   "compilerOptions": {
 // ecma script version
     "target": "es2018",
+//    "target": "es5",
 //    the location for javascript files
     "outDir": "./dist",
 //    the source files
