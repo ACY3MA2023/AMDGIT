@@ -1,10 +1,10 @@
-:books: **Project Setup for Typescript**
+:books: **Typescript Setup : Product Catalog Management System**
 
 :beginner: _**setup**_
 
-https://nodejs.org/dist/v14.15.4/node-v14.15.4-x64.msi  
-https://git-scm.com/downloads  
-https://code.visualstudio.com/download  
+https://nodejs.org/dist/v14.15.4/node-v14.15.4-x64.msi
+https://git-scm.com/downloads
+https://code.visualstudio.com/download
 
 ```js
 node --version
@@ -14,7 +14,7 @@ git --version
 npm install --global typescript@4.2.2
 tsc --version
 ```
-:beginner: _**Typescript **_
+:beginner: _**Initializing the Project**_
 - folder : PCMSysv1
 ```js
 git init
@@ -29,9 +29,7 @@ The npm init command creates a package.json file, which is used to keep track of
 
 tsc compiler : compiles TypeScript to JavaScript
 
-- `tsconfig.json` 
-
-PCMSysv1 : configuration for the TypeScript compiler
+- `tsconfig.json` PCMSysv1 : configuration for the TypeScript compiler
 ```js
 {
 "compilerOptions": {
