@@ -1,4 +1,4 @@
-:books: **DAY2**  
+:books: **DAY3**  
 
 :green_book: **Upgarde the code base for the following user stories from ES5 to use a version of ES6/ES2015 or above with Typescript**  
 :bulb: The preferable version would be ES6/ES2015
