@@ -1,6 +1,6 @@
-let testVar = 'change me let ... ..';
+let testVar = 'change me let..';
 console.log(testVar);
-testVar = "change let";
+testVar = "change let ...";
 console.log(testVar);
 //destructuring allows creating variables from the values in array
 const products = ['Commerz', 'IOT', 'Network!', 'Banking', "Fincance"];
