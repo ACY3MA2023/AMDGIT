@@ -6,10 +6,11 @@ export function Button() {
 }
 function App() {
   return (
-      <div>
-        <h1>Our first component in react!</h1>
+        // not interested in a div
+      <>
+        <h1>Our first component in react!!</h1>
         <Button/>
-      </div>
+      </>
   )
 }
 
