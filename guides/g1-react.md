@@ -12,3 +12,4 @@
 // }
 ```
 
+:two: _Apply style to the image to make it circular in the component._  

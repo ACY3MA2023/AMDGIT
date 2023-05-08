@@ -1,17 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
-export function Button() {
-  return <button>A simple component in react</button>
-}
-function App() {
-  return (
-        // not interested in a div
-      <>
-        <h1>Our first component in react!!</h1>
-        <Button/>
-      </>
-  )
+// user object to hold data
+const user = {
+    name:'Katherine',
+    imageUrl: 'https://i.imgur.com/MK3eW3Am.jpg',
+    imageSize: 150
 }
 
-export default App;
+
+// default export (main component)
+export default function Profile() {
+    return(
+        <>
+            <h1>{user.name}</h1>
+            <img src={user.imageUrl} alt={'Photo : ' + user.name}
+            style = {{width:user.imageSize, height:user.imageSize}}
+            />
+        </>
+    )
+}
