@@ -11,7 +11,7 @@ export default function Profile() {
     return(
         <>
             <h1>{user.name}</h1>
-            <img src={user.imageUrl} alt={'Photo : ' + user.name}
+            <img className="circle" src={user.imageUrl} alt={'Photo : ' + user.name}
             style = {{width:user.imageSize, height:user.imageSize}}
             />
         </>
