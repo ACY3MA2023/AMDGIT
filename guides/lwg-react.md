@@ -27,3 +27,20 @@ export default function App(){
 :bell: export makes components available outside the moudle (file)
 :bell: export default means the main component available outside the moudle (file)  
   
+:beginner: _**Start up**_
+```ts
+import React, { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./styles.css";
+
+import App from "./App";
+
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
+```
+  
+
