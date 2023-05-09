@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Profile from './App';
-// import reportWebVitals from './reportWebVitals';
 
+// import reportWebVitals from './reportWebVitals';
+// import Profile from './App';
+// import TaskList from "./App";
+import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <Profile />
+  //   <Profile />
+    <App/>
+  //   <TaskList/>
   // </React.StrictMode>
 );
 
