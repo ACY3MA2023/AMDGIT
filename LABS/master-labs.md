@@ -1,1 +1,1 @@
-:one: _Lab1_  : Refactoring our application to modularize it.
+:one: _Lab1_  : Build a dashboard card inspired from our official site Amdocs.com
