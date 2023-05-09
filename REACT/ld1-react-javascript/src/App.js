@@ -1,3 +1,5 @@
+import {useState} from "react";
+
 const user = {
     name: 'Katherinee',
     imageUrl: 'https://i.imgur.com/MK3eW3Am.jpg',
@@ -54,7 +56,7 @@ const tasks = [
 
 // // default export
 // Functional Component
-export default function TaskList() {
+export  function TaskList() {
     //Step 1 : Performs logic, necassirily on data
     // Returns the elements of an array that meet the condition specified in a callback function
     // const listTasks = tasks.map((task) => {
@@ -84,3 +86,32 @@ export default function TaskList() {
 //         {task.title}
 //     </li>
 // }
+
+
+export default function App() {
+    return (
+        <>
+        <EventHandleButton/>
+        <EventHandleButton/>
+            <EventHandleButton/>
+            <EventHandleButton/>
+            <EventHandleButton/>
+            <EventHandleButton/>
+            </>
+    )
+}
+ export function EventHandleButton(){
+
+    // const [counterData, mutateCounter]        =  useState(100);
+    const [something, setSomething]  =  useState(100);
+    // counter = counter + 1;
+    function eventHandler(){
+            setSomething(something +1);
+            // alert("event handled!")
+        }
+        return (
+            <button onClick={eventHandler}>
+                Handled Click Event {something} times.
+            </button>
+        )
+}
