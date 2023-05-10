@@ -1,6 +1,7 @@
 import {EventHandleButton} from "./components/ComponentStore/EventHandleButtonUseState";
 import {Profile} from "./components/Profile/Profile";
 import {TaskList} from "./components/TaskList/TaskList";
+import ShareDataAndUpdateTogether from "./components/ComponentStore/ShareDataAndUpdateTogether";
 
 const ProfileComponent = () => <><h1>Our Profile Component</h1><Profile/></>
 
@@ -20,6 +21,7 @@ export default function App() {
             <ProfileComponent/><br/><br/>
             <EventHandlerComponents/><br/><br/>
             <TaskList/><br/><br/>
+            <ShareDataAndUpdateTogether/><br/><br/>
         </>
     )
 }
