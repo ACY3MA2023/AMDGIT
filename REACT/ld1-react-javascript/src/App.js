@@ -2,6 +2,8 @@ import {EventHandleButton} from "./components/ComponentStore/EventHandleButtonUs
 import {Profile} from "./components/Profile/Profile";
 import {TaskList} from "./components/TaskList/TaskList";
 import ShareDataAndUpdateTogether from "./components/ComponentStore/ShareDataAndUpdateTogether";
+import Memoized from "./components/ComponentStore/Memoized";
+
 
 const ProfileComponent = () => <><h1>Our Profile Component</h1><Profile/></>
 
@@ -22,6 +24,7 @@ export default function App() {
             <EventHandlerComponents/><br/><br/>
             <TaskList/><br/><br/>
             <ShareDataAndUpdateTogether/><br/><br/>
+            <Memoized/><br/><br/>
         </>
     )
 }
