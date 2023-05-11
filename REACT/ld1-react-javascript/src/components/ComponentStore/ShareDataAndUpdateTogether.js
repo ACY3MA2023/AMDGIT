@@ -1,5 +1,5 @@
 import {useState} from "react";
-
+//
 // Parent
 export default function ShareDataAndUpdateTogether(){
     const [something, setSomething]  =  useState(100);

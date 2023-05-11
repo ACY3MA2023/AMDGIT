@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redux principles using a Simpe Facebook like kind-of widget</title>
+      <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+<!--    <script src="./redux.js"></script>-->
+</head>
+<body>
+No of Likes... : <span id="spanValue">0</span> &nbsp;&nbsp;&nbsp;
+<button id="increment">Like</button> &nbsp;&nbsp;&nbsp;
+<button id="decrement">Dislike</button> &nbsp;&nbsp;&nbsp;
+<script>
+    //  1.  create the state and initialize it....
+    const initialApplicationState = {
+        likes: 0
+    };
+
+    //  2. create the reducer to manage the state
+    function likesReducer(applicationState = initialApplicationState, action) {
+        //reducer figures out what happened (type of action) and decides on how the state needs to be udpated.
+        switch (action.type) {
+            // this is coming form the UI as an action type
+            case "likes/incremented":
+                // return changed state
+                return {...applicationState, likes: applicationState.likes + 1};
+            case "likes/decremented":
+                return {...applicationState, likes: applicationState.likes - 1};
+            //     reducer not interested in a particular type, the existing state is returned without changes.
+            default:
+                return applicationState;
+        }
+    }
+
+    // 3. create the store
+    const reduxStore = Redux.createStore(likesReducer);
+    // 4. UI updation on state change with render()
+    const spanValueElement = document.getElementById("spanValue");
+
+    function renderUI() {
+        const applicationState = reduxStore.getState();
+        spanValueElement.innerHTML = applicationState.likes.toString();
+    }
+
+    // 5. tie up the store with the render  /     store.subscribe(render)
+    reduxStore.subscribe(renderUI)
+
+    // 6. UI WILL GET INFORMATION FROM THE USER > DISPATCH ACTION OBJECT > WHAT HAPPENED?
+    document.getElementById("increment").addEventListener("click", function () {
+        reduxStore.dispatch({type: "likes/incremented"});
+    });
+
+ // Lab : implement dislike activity.
+</script>
+</body>
+</html>
