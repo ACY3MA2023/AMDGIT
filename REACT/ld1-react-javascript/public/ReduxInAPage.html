@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Redux principles using a Simpe Facebook like kind-of widget</title>
-      <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
-<!--    <script src="./redux.js"></script>-->
+<!--      <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>-->
+    <script src="./redux.js"></script>
 </head>
 <body>
 No of Likes... : <span id="spanValue">0</span> &nbsp;&nbsp;&nbsp;
 <button id="increment">Like</button> &nbsp;&nbsp;&nbsp;
-<button id="decrement">Dislike</button> &nbsp;&nbsp;&nbsp;
+<button id="decrement">Dislike</button>
+<button id="incrementAsynchronous">Like Asynchronous</button>&nbsp;&nbsp;&nbsp;
 <script>
     //  1.  create the state and initialize it....
     const initialApplicationState = {
@@ -49,7 +50,13 @@ No of Likes... : <span id="spanValue">0</span> &nbsp;&nbsp;&nbsp;
     document.getElementById("increment").addEventListener("click", function () {
         reduxStore.dispatch({type: "likes/incremented"});
     });
+    // asynchronous operation
 
+    document.getElementById("incrementAsynchronous").addEventListener("click", function () {
+        setTimeout(function(){
+            reduxStore.dispatch({type: "likes/incremented"});
+        },5000)
+    });
  // Lab : implement dislike activity.
 </script>
 </body>
