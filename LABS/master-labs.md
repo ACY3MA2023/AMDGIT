@@ -6,3 +6,5 @@
 :three: _Apply the React way of Design and thinkig to build this Dashboard!_  
 
 :four: _Explore debugging redux and time travel._  
+
+:five: _Deploy the Dashboard to AWS Cloud._  

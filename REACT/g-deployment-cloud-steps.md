@@ -52,3 +52,6 @@ Select Type of Policy > S3 bucket policy > Principal *
   ]
 }
 ```
+:five: _upload the project contents inside build folder_  
+:six: _Access the site_
+`Bucket>Properties>Static website hosting : <<Url for the app>>  `
