@@ -55,3 +55,13 @@ Select Type of Policy > S3 bucket policy > Principal *
 :five: _upload the project contents inside build folder_  
 :six: _Access the site_
 `Bucket>Properties>Static website hosting : <<Url for the app>>  `
+
+
+:beginner: _**CDN Distribution**_  
+:point_right: `CloudFront >
+Distributions >
+Create >
+Create distribution`
+:point_right: Origin Domain  > Pick the s3 origin domain
+:point_right: Default root object - optional
+The object (file name) to return when a viewer requests the root URL (/) instead of a specific object.   (index.html)
