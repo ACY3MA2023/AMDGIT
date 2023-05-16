@@ -13,3 +13,8 @@
 :beginner: _**Final Lab**_  
 :point_right: Experimental and exploratory lab with Pair Programming on GraphQL, React Native, Typescript & Router & the Javascript EcoSystem.  
 
+:six: _The Journey Ahead : Play with the entire javascript eco-system_  
+
+
+:medal_sports: **Thank you so much for all the efforts, wishing you a grand and successful journey with react!**  
+:medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports::medal_sports:
