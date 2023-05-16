@@ -24,13 +24,7 @@ export default function Memoized() {
     );
 }
 const Greeting = memo(function Greeting({ name }) {
-    console.log('Greeting was rendered at', new Date().toLocaleTimeString());
-    // state inside the child component.
-    // const [greeting, setGreeting] = useState('Hello');
-    return (
-        <>
-            <h3>Hello {name}</h3>
-        </>
+    return (<><h3>Hello {name}</h3></>
     );
 });
 

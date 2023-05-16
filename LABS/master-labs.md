@@ -8,3 +8,8 @@
 :four: _Explore debugging redux and time travel._  
 
 :five: _Deploy the Dashboard to AWS Cloud._  
+
+
+:beginner: _**Final Lab**_  
+:point_right: Experimental and exploratory lab with Pair Programming on GraphQL, React Native, Typescript & Router & the Javascript EcoSystem.  
+
